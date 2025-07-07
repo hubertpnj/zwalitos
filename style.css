@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.content {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.welcome-section {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.welcome-section h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+.footer {
+    text-align: center;
+    padding: 2rem 0;
+    color: #666;
+    margin-top: 2rem;
+}
